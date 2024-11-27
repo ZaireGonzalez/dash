@@ -1,0 +1,119 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Contenedor Principal */
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+/* Módulos */
+.module {
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.module:hover {
+    background-color: #f0f0f0;
+}
+
+.module h3 {
+    font-size: 18px;
+    text-align: center;
+    color: #333;
+}
+
+/* Tablas */
+.table-container {
+    display: none;
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+td {
+    background-color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Modulo de Estilo para mostrar el cursor como puntero */
+.module {
+    cursor: pointer;
+}
+
+/* Botón de Mostrar/Ocultar Tabla */
+.table-container {
+    margin-top: 20px;
+}
+
+/* Asegurar que las tablas tengan márgenes correctos */
+table {
+    margin-top: 15px;
+    width: 100%;
+}
+
+/* Tabla dentro de Módulos */
+.module .table-container table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Estilos adicionales */
+#configuracion {
+    background-color: #cfe2f3;
+}
+
+#venta {
+    background-color: #e2f0d9;
+}
+
+#anulacion {
+    background-color: #f4cccc;
+}
+
+#cierre {
+    background-color: #f9f9f9;
+}
+
+#proveedor {
+    background-color: #ffebcc;
+}
+
+#inventario {
+    background-color: #d9f1f7;
+}
